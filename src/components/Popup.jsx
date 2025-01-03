@@ -1,14 +1,9 @@
 import React, { useState } from 'react';
-import { Navigate, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const Popup = ({title, message}) => {
   const navigate =useNavigate();
   const [isVisible, setIsVisible] = useState(true);
-
-  const handleOpenPopup = () => {
-    setIsVisible(true);
-    
-  };
 
   const handleClosePopup = () => {
     setIsVisible(false);
