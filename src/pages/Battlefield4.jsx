@@ -57,7 +57,7 @@ const Battlefield4 = () => {
   const fetchedData = async () => {
     try {
       setLoading(true);
-      const response = await fetch('http://localhost:4000/api/v1/getData', {
+      const response = await fetch('https://battlefield-v.onrender.com/api/v1/getData', {
         method: "GET",
         headers: {
           'Accept': 'application/json', // Expecting JSON response
