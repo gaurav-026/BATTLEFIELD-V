@@ -1,11 +1,11 @@
-const express = require('express');
-const app = express();
+const express = require('express')
 var cors = require('cors');
 const fileUpload = require("express-fileupload"); 
 require('dotenv').config();
 
 const PORT = process.env.PORT || 5000;
 
+const app = express();
 //Use cors for intergration
 app.use(cors({
     origin:"*"
