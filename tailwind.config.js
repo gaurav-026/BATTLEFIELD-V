@@ -1,5 +1,3 @@
-const { green } = require('@mui/material/colors');
-
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
